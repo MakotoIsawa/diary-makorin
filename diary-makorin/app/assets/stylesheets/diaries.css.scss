@@ -1,0 +1,25 @@
+// Place all the styles related to the diaries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.diary {
+	border-bottom: solid 1px #CCC;
+	padding: 5px 0;
+
+}
+
+.diary p {
+	margin: 4px 0;
+}
+
+.diary.hover {
+	background: #FAFAFA;
+}
+
+.diary .admin {
+	display: none;
+}
+
+.diary.hover .admin {
+	display: inline;
+}

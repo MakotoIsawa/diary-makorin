@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>題名:</b>
+  <%= @diary.title %>
+</p>
+
+<p>
+  <b>本文:</b>
+  <%= @diary.content %>
+</p>
+
+
+<%= link_to '編集', edit_diary_path(@diary) %> |
+<%= link_to '戻る', diaries_path %>
