@@ -1,6 +1,8 @@
 DiaryMakorin::Application.routes.draw do
-  resources :diaries
+  devise_for :users
 
+  resources :diaries
+  root to: 'diaries#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
